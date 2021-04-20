@@ -31,4 +31,19 @@ allprojects {
 
 // Setting this property to true will make the artifactoryPublish task
 // skip this module (in our case, the root module):
-artifactoryPublish.skip = true
+//artifactoryPublish.skip = true
+ task javadocJar(type: Tar, dependsOn: javadoc) {
+      classifier = 'javadoc'
+      from javadoc.destinationDir
+       extension = 'war'
+     destinationDir = file('.')
+ extension = 'war'
+ compression = Compression.GZIP
+    }
+    artifactoryPublish {
+      dependsOn sourceJar, javadocJar
+    }
+    artifacts {
+      published sourceJar
+      published javadocJar
+    }
