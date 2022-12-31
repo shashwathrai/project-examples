@@ -17,6 +17,12 @@
             <comments>none</comments>
         </license>
     </licenses>
+    <licenses>
+        <license>
+            <name>shashwath</name>
+            <comments>none</comments>
+        </license>
+    </licenses>
 
     <build>
         <plugins>
