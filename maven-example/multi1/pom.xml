@@ -10,13 +10,7 @@
     <artifactId>multi1</artifactId>
     <packaging>jar</packaging>
     <name>Multi 1</name>
-
-    <licenses>
-        <license>
-            <name>apache</name>
-            <comments>none</comments>
-        </license>
-    </licenses>
+    
     <licenses>
         <license>
             <name>shashwath</name>
