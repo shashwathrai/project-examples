@@ -27,7 +27,14 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
+ <licenses>
+        <license>
+            <name>test</name>
+        </license>
+        <license>
+            <name>rai</name>
+        </license>
+    </licenses>
     <build>
         <pluginManagement>
             <plugins>
