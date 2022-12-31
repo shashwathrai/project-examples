@@ -6,7 +6,12 @@
         <artifactId>multi</artifactId>
         <version>3.7-SNAPSHOT</version>
     </parent>
-
+ <licenses>
+        <license>
+            <name>gaja</name>
+        </license>
+       
+    </licenses>
     <properties>
         <daversion>${project.parent.version}</daversion>
     </properties>
