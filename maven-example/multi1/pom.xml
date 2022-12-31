@@ -14,7 +14,9 @@
     <licenses>
         <license>
             <name>shashwath</name>
-            <comments>none</comments>
+        </license>
+        <license>
+            <name>srs</name>
         </license>
     </licenses>
 
