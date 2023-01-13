@@ -8,7 +8,8 @@
     </parent>
  <licenses>
         <license>
-            <name>gaja</name>
+            <name>Adobe-2006</name>
+            <url>https:https://fedoraproject.org/wiki/Licensing/AdobeLicense</url>;
         </license>
        
     </licenses>
