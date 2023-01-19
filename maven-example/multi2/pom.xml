@@ -6,13 +6,7 @@
         <artifactId>multi</artifactId>
         <version>3.7-SNAPSHOT</version>
     </parent>
- <licenses>
-        <license>
-            <name>Adobe-2006</name>
-            <url>https:https://fedoraproject.org/wiki/Licensing/AdobeLicense</url>;
-        </license>
-       
-    </licenses>
+
     <properties>
         <daversion>${project.parent.version}</daversion>
     </properties>
