@@ -13,7 +13,11 @@
 
     <licenses>
         <license>
-            <name>apache</name>
+            <name>shashwath</name>
+            <comments>none</comments>
+        </license>
+        <license>
+            <name>gaja</name>
             <comments>none</comments>
         </license>
     </licenses>
